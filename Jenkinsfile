@@ -7,7 +7,7 @@ stages(‘CI CD Pipeline’){
   stage(‘Code Checkout’){
     steps{
         script{
-            git credentialsId: ‘0a1544c3-a902-4811-a373-c8ae9f018d9e’, url: ‘https://github.com/PoulomiDeblala/MavenBuild.git’
+            git credentialsId: ‘0dbfbc4e-5328-4dfb-9127-2ad8a97c34af’, url: ‘https://github.com/PoulomiDeblala/MavenBuild.git’
             }
         }
     }
